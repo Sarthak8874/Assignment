@@ -51,7 +51,7 @@ function Todolist() {
   return (
     <div className="w-full flex-col flex justify-between items-center mt-10 mb-60">
       <div className="px-4 mt-4 mx-auto  mb-4">
-        <h2 className="text-4xl font-bold">Task List</h2>
+        <h2 className="text-4xl font-bold">To-do List</h2>
       </div>
       <div className="flex flex-row justify-between">
         <input

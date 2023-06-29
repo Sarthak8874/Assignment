@@ -18,7 +18,7 @@ function Banner() {
                 within minutes!
               </div>
             </div>
-            <div className="w-full flex justify-center mt-6">
+            <div className="w-full flex justify-center mt-10">
               <button className="w-256 h-68 rounded-full bg-orange shadow-btn font-600 text-32">
                 Get Started
               </button>
@@ -30,13 +30,13 @@ function Banner() {
           <div className="absolute bottom-0 left-16 w-488 h-154">
             <div className="flex mb-4">
               <Image className="h-full mt-2" src={check} />
-              <div className="border-b border-white text-29  w-320 font-600 font-poppins pb-3 m-1">
+              <div className="border-b-3 border-white text-29  w-320 font-600 font-poppins pb-3 m-1">
                 Expected Retirement Age
               </div>
             </div>
             <div className="flex mb-4">
               <Image src={check} className="h-full mt-2" />
-              <div className="border-b border-white text-29 w-320 font-600 font-poppins pb-3 m-1">
+              <div className="border-b-3 border-white text-29 w-320 font-600 font-poppins pb-3 m-1">
                 Identify Mistakes
               </div>
             </div>
@@ -45,13 +45,13 @@ function Banner() {
           <div className="absolute bottom-0 right-0 pl-5 w-488 h-154">
             <div className="flex mb-4">
               <Image src={check} className="h-full mt-2" />
-              <div className="border-b border-white text-29 w-320 font-600 font-poppins pb-3 m-1">
+              <div className="border-b-3 border-white text-29 w-320 font-600 font-poppins pb-3 m-1">
                 Personalised Road Map
               </div>
             </div>
             <div className="flex mb-4">
               <Image src={check} className="h-full mt-2" />
-              <div className="border-b border-white text-29 w-320 font-600 font-poppins pb-3 m-1">
+              <div className="border-b-3 border-white text-29 w-320 font-600 font-poppins pb-3 m-1">
                 Tips To Improve
               </div>
             </div>
@@ -65,13 +65,13 @@ function Banner() {
               How it works?
             </div>
             <Image src={work} />{" "}
-            <div className="absolute top-80 left-[360px] text-27 text-center w-60 ">
+            <div className="absolute top-80 left-[360px] text-27 text-center w-60 tracking-wide leading-40">
               Register using phone and OTP
             </div>
-            <div className="absolute top-80 left-6 text-27  text-center w-40 ">
+            <div className="absolute top-80 left-6 text-27  text-center w-40 tracking-wide leading-40">
               Answer few questions
             </div>
-            <div className="absolute top-80 right-0 text-27 text-center w-60 ">
+            <div className="absolute top-80 right-0 text-27 text-center w-60 tracking-wide leading-40">
               Get report and personal roadmap
             </div>
             <button className="w-256 h-68 rounded-full bg-orange shadow-btn font-600 text-32">

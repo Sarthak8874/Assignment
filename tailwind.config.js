@@ -33,8 +33,8 @@ module.exports = {
         68: "68px",
         92: "92px",
       },
-      padding:{
-        30:"0px"
+      padding: {
+        30: "0px",
       },
       minWidth: {
         500: "500px",
@@ -59,7 +59,7 @@ module.exports = {
       },
       inset: {
         21: "20%",
-        "360px":"360px"
+        "360px": "360px",
       },
       letterSpacing: {
         1.89: "1.89px",
@@ -84,6 +84,14 @@ module.exports = {
       },
       linearGradientDirections: {
         140: "140deg",
+      },
+      lineHeight: {
+        "extra-loose": "2.5",
+        12: "3rem",
+        40: "40px",
+      },
+      borderWidth: {
+        3: "3px",
       },
     },
   },
